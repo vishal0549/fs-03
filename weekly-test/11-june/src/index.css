@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+/* nav section */
+.nav-container {
+  height: 3rem;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+.nav-container > ul {
+  display: flex;
+  list-style: none;
+}
+
+.nav-container ul > li {
+  margin: 0 25px;
+}
+
+/* nav section */
+
+/* main section */
+
+.main-container {
+  padding: 40px;
+}
+
+/* main section */
+
+/* user details */
+
+.user-detail-container > h1 {
+  margin-bottom: 10px;
+}
+.user-detail-container > p {
+  text-align:justify;
+  margin-bottom: 20px;
+}
+.user-detail-container .dropdown-list > input {
+  margin-right: 5px;
+}
+.user-detail-container .dropdown-list > label {
+  margin-right: 30px;
+}
+.user-detail-container .dropdown-list {
+  margin-bottom: 10px;
+}
+
+
+/* table */
+
+.table thead tr > td {
+  width: 320px;
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+}
+.table tbody tr > td {
+  padding: 0 30px;
+}
+
+/* table */
+
+/* user details */
